@@ -34,33 +34,27 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="">
           </a>
-          <div class="" id="">
-            <div class="User_option">
-              <form class="form-inline my-2 mb-3 mb-lg-0">
-                <input type="search" placeholder="Search">
-                <button class="btn my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
-            </div>
-
-            <div class="custom_menu-btn">
-              <button onclick="openNav()">
-                <span class="s-1"></span>
-                <span class="s-2"></span>
-                <span class="s-3"></span>
-              </button>
-            </div>
-            <div id="myNav" class="overlay">
-              <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact Us</a>
-              </div>
-            </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>
     </header>
     <!-- end header section -->
+
     <!-- slider section -->
     <section class="slider_section">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -105,145 +99,165 @@
       </div>
     </section>
     <!-- end slider section -->
-  </div>
 
-  <!-- about section -->
-  <section class="about_section layout_padding">
-    <div class="container">
-      <div class="detail-box">
+    <!-- about section -->
+    <section class="about_section layout_padding">
+      <div class="container">
+        <div class="detail-box">
+          <div class="heading_container">
+            <img src="images/heading-img.png" alt="">
+            <h2>About Us</h2>
+          </div>
+          <p>
+            Cuttack's Pet Care is a trusted name for pet owners in Odisha. We ensure your pets are happy, healthy, and well-groomed. Our experienced team is dedicated to providing top-notch services for pets in and around Cuttack.
+          </p>
+          <div class="btn-box">
+            <a href="">
+              <span>Read More</span>
+              <img src="images/link-arrow.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- pricing section -->
+    <section class="food_section layout_padding">
+      <div class="container">
         <div class="heading_container">
           <img src="images/heading-img.png" alt="">
-          <h2>About Us</h2>
+          <h2>Our Pet Packages</h2>
+          <p>Affordable pricing tailored for pet owners in Cuttack.</p>
         </div>
-        <p>
-          Cuttack's Pet Care is a trusted name for pet owners in Odisha. We ensure your pets are happy, healthy, and well-groomed. Our experienced team is dedicated to providing top-notch services for pets in and around Cuttack.
-        </p>
-        <div class="btn-box">
-          <a href="">
-            <span>Read More</span>
-            <img src="images/link-arrow.png" alt="">
-          </a>
+        <div class="food_container">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/f1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Basic</h6>
+              <h3>₹500</h3>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="images/f2.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Medium</h6>
+              <h3>₹1000</h3>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="images/f3.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Standard</h6>
+              <h3>₹1500</h3>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- end about section -->
+    </section>
+    <!-- end pricing section -->
 
-  <!-- pricing section -->
-  <section class="food_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <img src="images/heading-img.png" alt="">
-        <h2>Our Pet Packages</h2>
-        <p>Affordable pricing tailored for pet owners in Cuttack.</p>
+    <!-- contact section -->
+    <section class="contact_section layout_padding-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 offset-md-1">
+            <div class="form_container">
+              <div class="heading_container">
+                <img src="images/heading-img.png" alt="">
+                <h2>Request A Call Back</h2>
+                <p>We are here to answer any questions you may have about our services.</p>
+              </div>
+              <form action="">
+                <div>
+                  <input type="text" placeholder="Full Name " />
+                </div>
+                <div>
+                  <input type="text" placeholder="Phone number" />
+                </div>
+                <div>
+                  <input type="email" placeholder="Email" />
+                </div>
+                <div>
+                  <input type="text" class="message-box" placeholder="Message" />
+                </div>
+                <div class="d-flex ">
+                  <button>SEND</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 px-0">
+            <div class="map_container">
+              <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.567797191393!2d86.08420031540347!3d20.46252108630316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909a2c2b5b4f1%3A0x9e0c7b7c9d9d6d1e!2sCuttack%2C%20Odisha%20753012!5e0!3m2!1sen!2sin!4v1682088249985!5m2!1sen!2sin" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="food_container">
-        <div class="box">
-          <div class="img-box">
-            <img src="images/f1.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h6>Basic</h6>
-            <h3>₹500</h3>
-            <a href="">Buy Now</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/f2.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h6>Medium</h6>
-            <h3>₹1000</h3>
-            <a href="">Buy Now</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/f3.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h6>Standard</h6>
-            <h3>₹1500</h3>
-            <a href="">Buy Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end pricing section -->
+    </section>
+    <!-- end contact section -->
 
-  <!-- contact section -->
-  <section class="contact_section layout_padding-top">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-5 offset-md-1">
-          <div class="form_container">
-            <div class="heading_container">
-              <img src="images/heading-img.png" alt="">
-              <h2>Request A Call Back</h2>
-              <p>We are here to answer any questions you may have about our services.</p>
-            </div>
-            <form action="">
+    <!-- info section -->
+    <section class="info_section ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="info_contact">
+              <h5>CONTACT INFO</h5>
               <div>
-                <input type="text" placeholder="Full Name " />
+                <img src="images/call.png" alt="" />
+                <p>+91 9876543210</p>
               </div>
               <div>
-                <input type="text" placeholder="Phone number" />
+                <img src="images/mail.png" alt="" />
+                <p>support@cuttackpetcare.com</p>
               </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="d-flex ">
-                <button>SEND</button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6 px-0">
-          <div class="map_container">
-            <div class="map-responsive">
-              <iframe src="https://maps.app.goo.gl/k7ii7kVx8dBQoopn9" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
             </div>
           </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="info_time">
+              <h5>Opening Hours</h5>
+              <p>Monday to Saturday</p>
+              <p>9:00 AM to 6:00 PM</p>
+            </div>
+          </div>
+          <!-- Other sections remain similar -->
         </div>
       </div>
-    </div>
-  </section>
-  <!-- end contact section -->
+    </section>
+    <!-- end info section -->
 
-  <!-- info section -->
-  <section class="info_section ">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="info_contact">
-            <h5>CONTACT INFO</h5>
-            <div>
-              <img src="images/call.png" alt="" />
-              <p>+91 9876543210</p>
-            </div>
-            <div>
-              <img src="images/mail.png" alt="" />
-              <p>support@cuttackpetcare.com</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_time">
-            <h5>Opening Hours</h5>
-            <p>Monday to Saturday</p>
-            <p>9:00 AM to 6:00 PM</p>
-          </div>
-        </div>
-        <!-- Other sections remain similar -->
-      </div>
-    </div>
-  </section>
-  <!-- end info section -->
+    <!-- footer section -->
+    <section class="container-fluid footer_section ">
+      <p>
+        &copy; 2025 All Rights Reserved. Design by
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </section>
+    <!-- end footer section -->
+
+    <!-- JS files -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").classList.toggle("menu_width");
+        document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style");
+      }
+    </script>
+  </div>
 </body>
 
 </html>
